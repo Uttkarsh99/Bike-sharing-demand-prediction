@@ -1,7 +1,7 @@
 # Bike-demand-share-prediction
 Prediction of Bike Demand Sharing using the python
 
-# General Overview
+## General Overview
 ---------------------------------------------------------------------------------------------------
 - Predicted the demand feature using the multiple linear regression model.
 - Removed irrelevant features using Exploratory Data Analysis and Correlation matrix.
