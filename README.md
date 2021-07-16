@@ -10,7 +10,7 @@ Prediction of Bike Demand Sharing using the python
 - Successfully calculated the RMSLE score of 0.356
 ----------------------------------------------------------------------------------------------------
 
-Feature of the dataset
+## Features of the dataset
 1. date
 2. season
 3. year
