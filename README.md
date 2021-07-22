@@ -53,15 +53,15 @@ Data visualization Analysis results - Continuous Features
 	- Humidity and wind speed affect demand but need more statistical analysis
 
 Data visualization Analysis results - Continuous Features
-	- There is variation in demand based on
+- There is variation in demand based on
 		- Season
 		- Month
 		- Holiday
 		- Hour
 		- Weather
 
-	- No significant change in demand due to weekday or working day
-	- Year-wise growth pattern not considered due to limited number of years
+- No significant change in demand due to weekday or working day
+- Year-wise growth pattern not considered due to limited number of years
 
 Features to drop
 	- Weekdays
