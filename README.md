@@ -27,3 +27,29 @@ Prediction of Bike Demand Sharing using the python
 14. casual
 15. registered
 16. demand
+
+## Steps performed during the project
+- Step 1 - Import the libraries
+- Step 2 - Read the CSV file
+- Step 3 - Prelim Analysis and Feature Selection
+- Step 4 - Data Visualization
+- Step 5 - Check for Outliers
+- Step 6 - Check for multiple linear regression assumptions
+- Step 7 - Create/modify the variables and solving the problem of normality
+- Step 8 - Solving the problem of autocorrelation
+- Step 9 - Create the dummy variables and drop first to avoid dummy variable trap using get dummies
+- Step 9 - Create Test and Train split
+- Step 10 - Create the model. Fit and score the model
+- Final step - Calculate RMSLE and compare results
+
+
+
+
+### Graph of demand vs other features
+![image](https://user-images.githubusercontent.com/63557791/126624967-551099c6-8a66-415e-82d1-847defd6dca6.png)
+
+### Log noarmally distributed demand feature
+![image](https://user-images.githubusercontent.com/63557791/126625621-fc19af31-79e5-40cf-bac0-7e70e079635e.png)
+
+### Sfter transformation: Normally distributed demand feature with negative skewness
+![image](https://user-images.githubusercontent.com/63557791/126625800-4016f3ad-5b4f-4ce1-a4a6-21030c846627.png)
