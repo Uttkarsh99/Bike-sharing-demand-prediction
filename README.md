@@ -1,6 +1,6 @@
 # Bike-demand-share-prediction
-Prediction of Bike Sharing Demand using the python
-
+Prediction of Bike Sharing Demand using python
+- Kaggle: https://www.kaggle.com/c/bike-sharing-demand
 - Dataset: https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
 
 ## General Overview
