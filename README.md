@@ -64,9 +64,9 @@ Data visualization Analysis results - Continuous Features
 - Year-wise growth pattern not considered due to limited number of years
 
 Features to drop
-	- Weekdays
-	- Year
-	- Working day
+- Weekdays
+- Year
+- Working day
 
 
 
