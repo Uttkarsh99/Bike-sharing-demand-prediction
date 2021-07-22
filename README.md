@@ -80,9 +80,13 @@ Data visualization Analysis results of Continuous Features
 - Predicted variable 'demand' is not normally distributed
 - Temperature and demand appears to have direct correlation
 - The plot for temp and atemp appear almost identical
-- Humidity has almost negligible affect on demand
-- Demand is less during high wind speed 
-	
+- Humidity and windspeed need more statistical analysis
+
+**Features to drop**
+<ol>
+<li> atemp </li>
+<li> windspeed </li>
+</ol>
 ### Log noarmally distributed demand feature
 ![image](https://user-images.githubusercontent.com/63557791/126625621-fc19af31-79e5-40cf-bac0-7e70e079635e.png)
 
