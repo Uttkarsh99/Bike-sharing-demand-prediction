@@ -1,6 +1,7 @@
 # Bike-demand-share-prediction
 Prediction of Bike Sharing Demand using the python
-Dataset: https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
+
+- Dataset: https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
 
 ## General Overview
 ---------------------------------------------------------------------------------------------------
