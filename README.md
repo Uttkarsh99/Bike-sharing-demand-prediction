@@ -44,15 +44,13 @@ Prediction of Bike Sharing Demand using python
 - Step 10 - Create the model. Fit and score the model
 - Final step - Calculate RMSLE and compare results
 
-### Results after doing EDA
-Data visualization Analysis results - Continuous Features
 
-	- Predicted variable 'demand' is not normally distributed
-	- Temperature and demand appears to have direct correlation
-	- The plot for temp and atemp appear almost identical
-	- Humidity and wind speed affect demand but need more statistical analysis
 
-Data visualization Analysis results - Continuous Features
+
+### Graph of demand vs categorical features
+![image](https://user-images.githubusercontent.com/63557791/126624967-551099c6-8a66-415e-82d1-847defd6dca6.png)
+
+Data visualization Analysis results of Categorical Features
 - There is variation in demand based on
 		- Season
 		- Month
@@ -60,19 +58,25 @@ Data visualization Analysis results - Continuous Features
 		- Hour
 		- Weather
 
-- No significant change in demand due to weekday or working day
-- Year-wise growth pattern not considered due to limited number of years
+	- No significant change in demand due to weekday or working day
+	- Year-wise growth pattern not considered due to limited number of years
 
 Features to drop
 - Weekdays
 - Year
 - Working day
 
+### Graph of demand vs continuous features
+![image](https://user-images.githubusercontent.com/63557791/126641645-21734eed-a4c5-4270-878a-0a8ce781247d.png)
 
+### Results after doing EDA
+Data visualization Analysis results of Continuous Features
 
-### Graph of demand vs other features
-![image](https://user-images.githubusercontent.com/63557791/126624967-551099c6-8a66-415e-82d1-847defd6dca6.png)
-
+	- Predicted variable 'demand' is not normally distributed
+	- Temperature and demand appears to have direct correlation
+	- The plot for temp and atemp appear almost identical
+	- Humidity and wind speed affect demand but need more statistical analysis
+	
 ### Log noarmally distributed demand feature
 ![image](https://user-images.githubusercontent.com/63557791/126625621-fc19af31-79e5-40cf-bac0-7e70e079635e.png)
 
