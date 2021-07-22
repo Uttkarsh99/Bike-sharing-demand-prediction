@@ -51,5 +51,5 @@ Prediction of Bike Demand Sharing using the python
 ### Log noarmally distributed demand feature
 ![image](https://user-images.githubusercontent.com/63557791/126625621-fc19af31-79e5-40cf-bac0-7e70e079635e.png)
 
-### Sfter transformation: Normally distributed demand feature with negative skewness
+### After transformation: Normally distributed demand feature with negative skewness
 ![image](https://user-images.githubusercontent.com/63557791/126625800-4016f3ad-5b4f-4ce1-a4a6-21030c846627.png)
