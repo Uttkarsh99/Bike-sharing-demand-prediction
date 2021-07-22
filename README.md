@@ -43,6 +43,29 @@ Dataset: https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
 - Step 10 - Create the model. Fit and score the model
 - Final step - Calculate RMSLE and compare results
 
+### Results after doing EDA
+Data visualization Analysis results - Continuous Features
+
+	- Predicted variable 'demand' is not normally distributed
+	- Temperature and demand appears to have direct correlation
+	- The plot for temp and atemp appear almost identical
+	- Humidity and wind speed affect demand but need more statistical analysis
+
+Data visualization Analysis results - Continuous Features
+	- There is variation in demand based on
+		- Season
+		- Month
+		- Holiday
+		- Hour
+		- Weather
+
+	- No significant change in demand due to weekday or working day
+	- Year-wise growth pattern not considered due to limited number of years
+
+Features to drop
+	- Weekdays
+	- Year
+	- Working day
 
 
 
