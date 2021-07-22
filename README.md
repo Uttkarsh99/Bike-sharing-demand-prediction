@@ -14,16 +14,16 @@ Prediction of Bike Sharing Demand using python
 
 ## Features of the dataset
 1. date
-2. season
+2. season - (1:winter, 2:spring, 3:summer, 4:fall)
 3. year
-4. month
+4. month - (1:12)
 5. hour
-6. holiday
-7. weekday
-8. workingday
-9. weather
-10. temp
-11. atemp
+6. holiday - 1: Yes, 0: No
+7. weekday - 0-6 (Sunday to Saturday)
+8. workingday - 1: Yes, 0: No
+9. weather - 1: Clear, 2: Mist, 3: Light rain/Light Snow, 4: Heavy rain + Ice pallets 
+10. temp - Normalized temperature in celsius
+11. atemp - Normalized feeling temperature in celsius
 12. humidity
 13. windspeed
 14. casual
@@ -54,11 +54,11 @@ Prediction of Bike Sharing Demand using python
 <ol> 
 <li>There is variation in demand based on</li>
 <ol>
-<li>Season</li>
-<li>Month</li>
-<li>Holiday</li>
-<li>Hour</li>
-<li>Weather</li>
+<li>Season - Highest demand in Fall season and Lowest demand in Spring season </li>
+<li>Month - High demand from May to October </li>
+<li>Holiday - Demand is less on holidays</li>
+<li>Hour - Peak demand at 8am and 5pm</li>
+<li>Weather - Highest demand in clear weather and Lowest demand in heavy rainy weather </li>
 </ol>
 <li>No significant change in demand due to weekday or working day</li>
 <li>Year-wise growth pattern not considered due to limited number of years</li>
