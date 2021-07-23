@@ -87,6 +87,7 @@ Data visualization Analysis results of Continuous Features
 <li> atemp </li>
 <li> windspeed </li>
 </ol>
+
 ### Log noarmally distributed demand feature
 ![image](https://user-images.githubusercontent.com/63557791/126625621-fc19af31-79e5-40cf-bac0-7e70e079635e.png)
 
